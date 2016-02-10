@@ -230,9 +230,9 @@ void loop(void)
         LcdString((dtostrf(C1*1000,5,2,string)));
         LcdString(str2);
         LcdXY (0,28);
-        LcdString("MADE BY-");
+        LcdString("HURRAY");
         LcdXY (0,37);
-        LcdString("Group:4");
+        LcdString("DONE!");
         Serial.println(t_final);
         Serial.println(t_inicio);
         Serial.println();
